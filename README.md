@@ -47,3 +47,13 @@ python metrics_estimation.py
   
 When the testing is over, you will find the txt files with the result for the different configurations. 
 
+#Results
+
+# Results
+
+
+
+<img src="/boxplot.pdf" width="800">
+
+Quantitative evaluation of the proposed method for WMH segmentation. We measure Dice coefficient to assess the segmentation quality, while Brier score and stratified Brier score account for calibration quality. Boxplots show mean and standard deviation for predictions obtained with individual models, 3-networks ensembles and 5-networks ensembles.
+
