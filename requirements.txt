@@ -1,0 +1,9 @@
+keras==2.3.1
+scikit-learn==0.22.1
+scikit-image
+matplotlib
+nibabel
+medpy
+pandas
+seaborn
+
