@@ -15,9 +15,9 @@ First, make sure that in "config_file.ini" the patches_directory contains the pa
 
 - The model can be trained using below command:
 
-'''
+```
 python training_ensemble.py
-'''
+```
 
   
 ## Predicting segmentation:
@@ -27,15 +27,22 @@ The pretrained_models_folds contains the path with our pre-trained models for wm
 
 The file "metadata.txt" contains the partition that we used in this paper
 
+ - The hold out images can be segmented using the bellow command:
+ 
+ ```
+python predict.py
+```
+
+
 
 ## Testing:
 
 First, make sure that in "config_file.ini" has the correct ensemble parametes.
 Run the testing script with the following command:
 
-'''
+```
 python metrics_estimation.py
-'''
+```
 
   
 When the testing is over, you will find the txt files with the result for the different configurations. 
