@@ -1,4 +1,4 @@
-# Orthogonal_Ensemble_Networks
+# Orthogonal Ensemble Networks
 In this tutorial you will find all the steps and instructions you need in order to reproduce the experiments performed in "Orthogonal Ensemble Networks for Biomedical Image Segmentation" by Agostina Larrazabal, César Martínez, José Dolz, and Enzo Ferrante. October 2021.
 
 ## Requirements
