@@ -11,6 +11,9 @@ pip install -r requirements.txt
 
 ## Training:
 
+Part of this code is based on the following publicly available implementation: 
+https://github.com/samaonline/Orthogonal-Convolutional-Neural-Networks/
+
 First, make sure that in "config_file.ini" the patches_directory contains the path where you have saved the image parches.
 
 - The model can be trained using below command:
