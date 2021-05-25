@@ -8,6 +8,10 @@ You should also have installed the requirements:
 ```
 pip install -r requirements.txt
 ```
+## Pre-trained models
+
+Our pre-trained models for wmh segmentation can be downloaded using the following link:
+https://drive.google.com/drive/folders/1VSsDUmNoPNg3wGtRpa5LVHXgoeZWT_UQ?usp=sharing
 
 ## Training:
 
@@ -25,6 +29,7 @@ https://github.com/samaonline/Orthogonal-Convolutional-Neural-Networks/
 
   
 ## Predicting segmentation:
+
 
 First, make sure that in "config_file.ini" the image_source_dir contains the path where you have download the dataset.
 The pretrained_models_folds contains the path with our pre-trained models for wmh dataset
